@@ -149,9 +149,22 @@ body{
 
 
 
+.devmap{
+    opacity: 0.3;
+    position: absolute;
+    width: 300px;
+    left: 500px;
+    bottom: 170px;
+}
 
-
-
+.info-dev-map{
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    right: 40px;
+    font-family: "IM Fell English SC", serif;
+    font-size: 20px;
+}
 
 .version{
 font-size: 20px;

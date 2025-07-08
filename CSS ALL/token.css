@@ -31,7 +31,7 @@ body{
 .stone {
     position: absolute;
     height: 30px;
-    width: 100%;
+    width: 100vw;
     
 }
 
@@ -72,7 +72,6 @@ body{
     bottom: 535px;
 
 }
-
 
 .dragon img{
     width: 15vw;
@@ -120,35 +119,25 @@ body{
 }
 
 
-.inf-dice{
-     font-family: "IM Fell English SC", serif;
-     font-size: 30px;
-     text-align: center;
-     position: relative;
-     bottom: 200px;
-}
 
-.dice{
-    width: 230px;
-    height: 100px;
-    background-color:red;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    gap: 9px;
+.info-dev-token{
+    text-align: center;
     position: relative;
-    left: 560px;
-    bottom:140px;
-}
-
-.dice button:hover{
-    cursor: pointer;
-
+    bottom: 20px;
+    font-family: "IM Fell English SC", serif;
+    font-size: 20px;
 }
 
 
+.devtoken{
+    opacity: 0.3;
+    position:absolute;
+    bottom: 40px;
+    width: 300px;
+    left: 500px;
+    z-index: -1;
 
+}
 
 
 

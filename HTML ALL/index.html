@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<!--version 0.0.1-->
+<!--version 0.1.0-->
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/CSS ALL/style.css">
-    <script src="/JS ALL/script.js"></script>
     <title>Project RPG</title>
 </head>
 
@@ -14,42 +19,86 @@
 
 
     <header>
+       
 
-<div class="dragon">
-<img src="/CSS ALL/images/header/dragon left.png" alt="dragon decoration">
+<div class="interface">
+
+
+ <img class="stone" src="/CSS ALL/images/header/image 1.png" alt="">
+
+
+
+<div class="plates">
+    <ul>
+          <li><a href="Maps.html"><img class="plateone" src="/CSS ALL/images/header/menu.png" alt=""></a></li>
+
+
+         <li><a href="index.html"><img class="platetwo" src="/CSS ALL/images/header/menu.png" alt=""></a></li>
+
+
+            <li><a href="Token.html"><img class="platethree" src="/CSS ALL/images/header/menu.png" alt=""></a></li>
+    </ul>
+
+
 
 </div>
 
+<section class="dragon">
+<img src="/CSS ALL/images/header/dragon left.png" alt="Dragon decoration">
 
-<nav class="menu-PC">
-    
-    <a href="/HTML ALL/Maps.html" target="_self"><li>MAPS</li> </a>
-     <a href="/HTML ALL/index.html"><li>DICES</li></a>
-      <a href="/HTML ALL/Token.html"><li>TOKEN</li></a>
+</section>
+
+<nav class="menu-pc">
+    <ul>
+        <li><span class="MAPS"><a href="Maps.html">MAPS</span></a>
+            <a href="Maps.html">
+       </a></li>
+
+
+        <li><a href="index.html">DICES</a></li>
+        <li><a href="Token.html">TOKEN</a></li>
+    </ul>
 </nav>
 
 
 
+<section class="dragontwo">
+<img src="/CSS ALL/images/header/dragon left.png" alt="Dragon decoration">
+</section>
 
 
+</div>
 </header>
 
 
-<h1> Project RPG v0.0.1</h1>
-<p>clique no dado desejado</p>
+<span class="inf-dice"><p>clique no dado desejado</p></span>
 
-<button>d6</button>
+<div class="dice">
 
-<button>d8</button>
+<button id="d4">d4</button>
 
-<button>d10</button>
+<button id="d6">d6</button>
 
-<button>d12</button>
+<button id="d8">d8</button>
 
-<button>d20</button>
+<button id="d10">d10</button>
 
-<button>d100</button>
+<button id="d12">d12</button>
+
+<button id="d20">d20</button>
+
+<button id="d100">d100</button>
+</div>
 
 
+<footer>
+<div class="info">
+    <p class="version">Project RPG v0.1.0</p>
+</div>
+
+</footer>
+
+
+  <script src="/script.js"></script>
 </body>
 </html>
